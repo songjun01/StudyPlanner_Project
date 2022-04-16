@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:id="@+id/idDayLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                //line 1
+
+                <TextView
+                    android:id="@+id/Monday"
+                    android:layout_width="80dp"
+                    android:layout_height="90dp"
+                    android:background="#F44336"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="월"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/Tuesday"
+                    android:layout_width="80dp"
+                    android:layout_height="90dp"
+                    android:background="#FF9800"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="화"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/Wednesday"
+                    android:layout_width="80dp"
+                    android:layout_height="90dp"
+                    android:background="#FFC107"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="수"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/Thursday"
+                    android:layout_width="80dp"
+                    android:layout_height="90dp"
+                    android:background="#8BC34A"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="목"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/Friday"
+                    android:layout_width="80dp"
+                    android:layout_height="90dp"
+                    android:background="#00BCD4"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="금"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/Saturday"
+                    android:layout_width="80dp"
+                    android:layout_height="90dp"
+                    android:background="#2196F3"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="토"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/Sunday"
+                    android:layout_width="80dp"
+                    android:layout_height="90dp"
+                    android:background="#9C27B0"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="일"
+                    android:textColor="#000000"
+                    android:textSize="30sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/idOneLoaout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/MondayOne"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/TuesdayOne"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/WednesdayOne"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/ThursdayOne"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/FridayOne"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/SaturdayOne"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/SundayOne"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/idTwo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/MondayTwo"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/TuesdayTwo"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/WednesdayTwo"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/ThursdayTwo"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/FridayTwo"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/SaturdayTwo"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/SundayTwo"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/idThree"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/MondayThree"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/TuesdayThree"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/WednesdayThree"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/ThursdayThree"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/FridayThree"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/SaturdayThree"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/SundayThree"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/idFour"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/MondayFour"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/TuesdayFour"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/WednesdayFour"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/ThursdayFour"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/FridayFour"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/SaturdayFour"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/SundayFour"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/idFive"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/MondayFive"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/TuesdayFive"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/WednesdayFive"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/ThursdayFive"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/FridayFive"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/SaturdayFive"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/SundayFive"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/idSix"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/MondaySix"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/TuesdaySix"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/WednesdaySix"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/ThursdaySix"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/FridaySix"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/SaturdaySix"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/SundaySix"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/idSeven"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/MondaySeven"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/TuesdaySeven"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/WednesdaySeven"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/ThursdaySeven"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/FridaySeven"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/SaturdaySeven"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/SundaySeven"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/idEight"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/MondayEight"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/TuesdayEight"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/WednesdayEight"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/ThursdayEight"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/FridayEight"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/SaturdayEight"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/SundayEight"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/idNine"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/MondayNine"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/TuesdayNine"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/WednesdayNine"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/ThursdayNine"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/FridayNine"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/SaturdayNine"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/SundayNine"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/idTen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/MondayTen"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/TuesdayTen"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/WednesdayTen"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/ThursdayTen"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/FridayTen"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/SaturdayTen"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/SundayTen"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:background="#FFFFFF"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+            </TableRow>
+
+        </TableLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/idSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onSettingClicked"
+        android:text="설정"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
+
+    <Button
+        android:id="@+id/idOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onOkClicked"
+        android:text="확인"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/idSetting"
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintStart_toStartOf="@+id/horizontalScrollView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
+
+    <Button
+        android:id="@+id/idFont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onFontClicked"
+        android:text="폰트"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/idOK"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="@+id/horizontalScrollView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

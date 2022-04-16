@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FontActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="409dp"
+        android:layout_height="675dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:id="@+id/dongdong"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/dongdongView"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:fontFamily="@font/cafe24dongdong"
+                    android:gravity="center"
+                    android:text="카페24 동동"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/dongdongApply"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onDongdongApplyClicked"
+                    android:text="적용"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/ohsquare"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/ohsquareView"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:fontFamily="@font/cafe24ohsquare"
+                    android:gravity="center"
+                    android:text="카페24 아네모네"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/dongdongApply2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onOhsquareApplyClicked"
+                    android:text="적용"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/shiningstar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/shiningstarView"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:fontFamily="@font/cafe24shiningstar"
+                    android:gravity="center"
+                    android:text="카페24 빛나는 별"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/shingstarApply"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onShiningStarApplyClicked"
+                    android:text="적용"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/ssukssuk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/ssukssukView"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:fontFamily="@font/cafe24ssukssuk"
+                    android:gravity="center"
+                    android:text="카페24 쑥쑥"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/ssukssukApply"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onSsukssukApplyClicked"
+                    android:text="적용"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/ssurround"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/ssurroundView"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:fontFamily="@font/cafe24ssurround"
+                    android:gravity="center"
+                    android:text="카페24 써라운드"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/ssurroundApply"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onSsurroundApplyClicked"
+                    android:text="적용"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/syongsyong"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/syongsyongView"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:fontFamily="@font/cafe24syongsyong"
+                    android:gravity="center"
+                    android:text="카페24 숑숑"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/syongsyongApply"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onSyongsyongApplyClicked"
+                    android:text="적용"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/onemobilepop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/onemobileView"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:fontFamily="@font/onemobilepop"
+                    android:gravity="center"
+                    android:text="원모바일 POP"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/onemobileApply"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onOnemobilepopApplyClicked"
+                    android:text="적용"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/rixyeoljeongdo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/rixyeoljeongdoView"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:fontFamily="@font/rixyeoljeongdo_regular"
+                    android:gravity="center"
+                    android:text="Rix 열정도체"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/rixyeoljeongdoApply"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRixyeoljeongdoApplyClicked"
+                    android:text="적용"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/wemakeprice"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/wemakepriceView"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:fontFamily="@font/wemakeprice_regular"
+                    android:gravity="center"
+                    android:text="위메프체"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+
+                <Button
+                    android:id="@+id/wemakepriceApply"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onWemakepriceApplyClicked"
+                    android:text="적용"
+                    android:textColor="#000000"
+                    android:textSize="20sp" />
+
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+    <TableRow
+        android:layout_width="409dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="300dp"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/idReturn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onReturnClicked"
+            android:text="돌아가기"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </TableRow>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
